@@ -1,34 +1,25 @@
 import React from "react";
 import Fade from "react-reveal";
 
-// import "./index.css";
-
-const networks = [].map(function (network) {
-  return (
-    <li key={network.name}>
-      <a href={network.url}>
-        <i className={network.className}></i>
-      </a>
-    </li>
-  );
-});
-
-const Footer = () => {
+const Footer = ({ social }) => {
+  debugger
   return (
     <footer>
       <div className="row">
         <Fade bottom>
           <div className="twelve columns">
-            <ul className="social-links">{networks}</ul>
+            <ul className="social-links">
+              {social.map((network) => (
+                <li key={network.name}>
+                  <a href={network.url}>
+                    <i className={network.className}></i>
+                  </a>
+                </li>
+              ))}
+            </ul>
 
             <ul className="copyright">
-              <li>&copy; Copyright 2021 Nordic Giant</li>
-              <li>
-                Design by{" "}
-                <a title="Styleshout" href="http://www.styleshout.com/">
-                  Styleshout
-                </a>
-              </li>
+              <li>&copy; Copyright 2023 Alponce Pharma</li>
             </ul>
           </div>
         </Fade>
