@@ -20,7 +20,7 @@ const Products = ({ products }) => {
                 return (
                   <div key={projects.title} className="columns portfolio-item">
                     <div className="item-wrap">
-                      <img src={projects.image}/>
+                      <img src={projects.image} alt={projects.title}/>
                       <div style={{ textAlign: "center" }}>
                         {projects.title}
                       </div>

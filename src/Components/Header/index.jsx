@@ -2,7 +2,7 @@ import React from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 
-// import './index.css';
+import './index.css';
 
 const Header = () => {
   return (
