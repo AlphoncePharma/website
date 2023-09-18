@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from './Components/Header';
+import About from './Components/About'
 import Products from "./Components/Products";
 import Footer from "./Components/Footer";
 import "./App.css";
@@ -60,6 +61,7 @@ function App() {
   return (
     <div className="App">
      <Header/>
+     <About/>
      <Products products={products}/>
      {/* When ever social pages are created fill the above array and pass here */}
      <Footer social={[]}/>
