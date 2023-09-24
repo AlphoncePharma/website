@@ -2,7 +2,6 @@ import React from "react";
 import Fade from "react-reveal";
 
 const Footer = ({ social }) => {
-  debugger
   return (
     <footer>
       <div className="row">

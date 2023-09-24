@@ -21,9 +21,9 @@ const Products = ({ products }) => {
                   <div key={projects.title} className="columns portfolio-item">
                     <div className="item-wrap">
                       <img src={projects.image} alt={projects.title}/>
-                      <div style={{ textAlign: "center" }}>
+                      <h4 className="Product-name">
                         {projects.title}
-                      </div>
+                      </h4>
                     </div>
                   </div>
                 );

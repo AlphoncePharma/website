@@ -12,3 +12,8 @@ img {
   height: 350px;
   object-fit: cover;
 }
+
+.Product-name{
+  text-align: center;
+  margin: 10px;
+}

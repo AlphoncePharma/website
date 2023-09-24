@@ -1,16 +1,17 @@
 import React from "react";
 import Fade from "react-reveal";
-import Logo from '../../Images/RajLogo.jpeg'
+import Logo from "../../Images/RajLogo.jpeg";
 
-const name = 'Alphonce Pharma';
+const name = "Alphonce Pharma";
 const profilepic = Logo;
-const bio = "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.";
+const bio =
+  "Alphonce Pharmaceuticals Private Limited is a privately held company established on February 24, 2021. We are classified as a non-government company and are registered at the Registrar of Companies in Patna. Our commitment to excellence in the pharmaceutical industry drives our mission to improve healthcare worldwide.";
 const street = "Rail Vihar Colony, Aadarsh Nagar Phase-01";
-const city = "Devrikhurd, Bilaspur"
-const state = "Chhattisgarh"
-const zip = "495004"
-const phone = "9386852977"
-const email = "alphoncepharma@gmail.com" 
+const city = "Devrikhurd, Bilaspur";
+const state = "Chhattisgarh";
+const zip = "495004";
+const phone = "9386852977";
+const email = "alphoncepharma@gmail.com";
 
 const About = () => {
   return (
@@ -29,23 +30,12 @@ const About = () => {
 
             <p>{bio}</p>
             <div className="row">
-              <div className="columns contact-details">
-                <h2>Contact Details</h2>
+              <div className="columns">
+                <h2>Leadership</h2>
                 <p className="address">
-                  <span>{name}</span>
-                  <br />
-                  <span>
-                    {street}
-                    <br />
-                    {city} {state}, {zip}
-                  </span>
-                  <br />
-                  <span>
-                  <a href={`tel:${phone}`}>{phone}</a>
-                  </span>
-                  <br />
-                  <span>
-                  <a href={`mailto:${email}`}>{email}</a></span>
+                  The leadership of Alphonce Pharmaceuticals Private Limited
+                  consists of&nbsp;
+                  <b>Pinkee Kumari</b> and <b>Mohd Yousuf Monawwar</b>
                 </p>
               </div>
             </div>

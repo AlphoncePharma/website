@@ -3,6 +3,7 @@ import React from "react";
 import Header from './Components/Header';
 import About from './Components/About'
 import Products from "./Components/Products";
+import Address from './Components/Address';
 import Footer from "./Components/Footer";
 import "./App.css";
 
@@ -64,6 +65,7 @@ function App() {
      <About/>
      <Products products={products}/>
      {/* When ever social pages are created fill the above array and pass here */}
+     <Address/>
      <Footer social={[]}/>
     </div>
   );
